@@ -1,0 +1,158 @@
+@charset "UTF-8";
+img{
+    display: block;
+    width: 100%;
+}
+nav ul{
+    list-style-type: none;
+    z-index: 999;
+}
+nav li{
+    display: inline-block;
+}
+header .menu {
+    position: absolute;
+    right   : 40px;
+    top     : 100px;
+    animation: menu 3s backwards;
+}
+.menu li{
+    display: inline-block ;
+}
+.menu a{
+    display:block ;
+    width: 100px;
+    height: 35px;
+    line-height: 35px;/*垂直置中*/
+    text-align: center;/*純文字置中*/
+    color: rgb(3, 3, 3);
+    border: solid 1px transparent;/*透明邊框*/ 
+}
+.name{
+    position: absolute;
+    top: 35%;
+    left: 20%;
+}
+.name h2{
+    font-size: 3rem;
+    font-weight: 400;
+    text-decoration: underline;
+    
+}
+.name h3{
+    line-height: 0rem;
+    
+}
+section{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;/* 水平置中*/
+}
+.lightpink{
+    background-color: rgba(122, 122, 146, 0.11);
+}
+div {
+    width: 950px;
+    height: 560px;
+}
+section h2{
+    color: #444;
+    font-size: 2rem;
+    margin: 30px 0;
+    padding: 10px 20px ;
+    text-align: center;
+    text-decoration: underline;
+}
+div img{
+    position:absolute; 
+    width:29%;
+    -ms-transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+}
+div p{
+    line-height:50px;
+    white-space:nowrap;
+    position: absolute;
+    color: black;
+    font-size: 1.5em;
+    left: 50%;
+    margin:0;
+    padding:0;
+    word-break: break-all;
+    word-wrap:break-word;
+    white-space:pre;
+    white-space:nowrap;
+    white-space:pre-wrap;
+    white-space: pre-line;     
+}
+#contact_form{
+    line-height:45px;
+    white-space:nowrap;
+    position: absolute;
+    color: black;
+    font-size: 1.5em;
+    left: 50%;
+    margin:0px;;
+    padding: 0;
+    word-break: break-all;
+    word-wrap:break-word;
+    white-space:pre;
+    white-space:nowrap;
+    white-space:pre-wrap;
+    white-space: pre-line;
+         
+}
+figure img{
+    margin-right: 20px;
+    width: 300px;
+    float: left;
+    margin-left: 30px;
+    border: 2px;
+}
+h3{
+    margin-right: 10px;
+    width: 300px;
+    float: left;
+    margin-left: 65px;
+    top: 0;
+    left: 0;
+    font-weight: bold;
+    font-size: 2em;
+    
+}
+h4{
+    margin-right: 10px;
+    width: 300px;
+    float: left;
+    margin-left: 41px;
+    top: 0;
+    left: 0;
+    font-weight: bold;
+    font-size: 2em;
+}
+    
+    
+    
+
+ 
+
+
+    
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+
+        
